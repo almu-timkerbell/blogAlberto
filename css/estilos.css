@@ -115,19 +115,19 @@
 }
 
 .footerContainer{
+  display: flex;
 	margin-top: 20px;
 	height: 50px;
-	color: grey;
+	color: 	#696969;
 	text-align: center;
-    display: flex;
-    justify-content: space-between;
-    font-size: 10px;
-    align-items: flex-end;
+	justify-content: space-between;
+	font-size: 10px;
+	align-items: flex-end;
 }
 
-@media only screen and (max-width: 425px){
-	.burger-button{
-display: block;
+@media only screen and (max-width: 557px){
+.burger-button{
+	display: block;
 }
 
 .header{
@@ -143,29 +143,32 @@ display: block;
 
 	
 	.nav_container{
-	
-	position: fixed;
-	background-color: grey;
-	z-index: 3;
-	top: 0;
-	left: -200vw;
-	bottom: 0;
-	width: 100vw;
-	/* height: 100vh; */
-	display: block;
-	align-items: center;
-	justify-content: center;
-	transition: .3s;
+		display: block;
+		position: fixed;
+		background-color: #404040;
+		z-index: 3;
+		top: 0;
+		left: -200vw;
+		bottom: 0;
+		width: 100vw;
+		align-items: center;
+		justify-content: center;
+		transition: .3s;
 
 }
 
 .nav_container.is-active{
 	left: 0;
 }
-	.navButton{
-		display: none;
+.navButton{
+	display: none;
 		
-	}
+}
+
+.navButton--margin--top{
+	margin-top: 50px;
+}
+
 }
 @media only screen and (min-width: 426px){
 .icon{
