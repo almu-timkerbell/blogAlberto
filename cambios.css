@@ -1,0 +1,41 @@
+@media only screen and (max-width: 425px){
+    .formulario_idioma_noticia{
+        text-align: center;
+
+    }
+
+    .formulario_idioma_noticia form{
+        max-width: 250px; /*o lo que se quiera*/
+        display: inline-grid;
+    }
+}
+
+h1{
+    margin-bottom: 25px; /*o lo que consideremos, peero ahora está muy pegado*/
+}
+
+ /* footer quitar position: fixed ;
+ #pagination_noticias qiutar display: table;
+ ¿para qué estaá el enlace de contactar??
+
+ */
+
+ BODY{
+     background-color: #EEE2DC;
+ }
+
+ /* text color: #ac3b61; */
+
+ .contenedor-carta{
+    position: absolute;
+
+ }
+
+ .contenedor-carta span{
+     /* span o alguna clase dada al texto que vayamos a poner indicando nombre, numero y pais del piloto en este caso */
+     position: relative;
+     top: 100px;
+     /* o lo que sea */
+     display: none;
+     
+ }
