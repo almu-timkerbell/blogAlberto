@@ -12,7 +12,7 @@
 
     <body>
         <div id="app">
-          <i class="icon-menu burger-button" id="burger-menu"></i>
+          <i v-on:click="hideShow" class="icon-menu burger-button" id="burger-menu"></i>
           <header class="header">
             <div class="container">
                  <div class="logo"><a href="#home" class="navButton"><b> {{ webName }} </b></div>
@@ -23,9 +23,10 @@
                     <a href="#sobremi" class="navButton">Sobre mí</a>
 
                  </nav>
+                 </div>
             </div>
-          </header>
-          <div class="body_container">
+         </header>
+         <div class="body_container">
              <div class="post1">
                 <h3>Título del post</h3>
                 <div class="texto">Contenido del post: apeun sarangiyagi nae mam
@@ -111,11 +112,11 @@
             
         </div>
         </footer>  
-         </div>        
+    </div>        
             
             
             
-<script src="js/main.js"></script>
+<!-- <script src="js/main.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="js/vuedocument.js"></script>
 </body>
