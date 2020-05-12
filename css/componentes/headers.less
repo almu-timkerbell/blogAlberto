@@ -1,0 +1,61 @@
+.icon-menu:before {
+	content: "\e900";
+  }
+
+.burger-button{
+	width: 40px;
+	height: 40px;
+	display: none;
+	border-radius: 50%;
+	background-color: @color-oscuro;
+	color: @color-claro;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	z-index: 4;
+	left: 5px;
+	top: 5px;
+
+
+}
+
+.header{
+	height: 70px;
+	background-color: @color-claro;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+    .container{
+        .layout();
+     }
+    a {
+        color: @color-oscuro;
+         text-decoration: none;
+         align-items: center;
+         padding: 0px 10px;
+         height: inherit;
+     }
+    .nav_container{ 
+         display: flex;
+    
+     }
+}
+
+
+.homeButton{
+    border: none;
+    background: @color-claro;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 22px;
+    font-size: 20px;
+    color: @color-oscuro;
+    text-decoration: none;
+}
+
+.nav_container a.icon{
+    border: 1px solid black;
+    border-radius: 50%;
+}
