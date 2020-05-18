@@ -141,6 +141,44 @@
   font-size: 10px;
   align-items: flex-end;
 }
+.postPage--bodyPpal {
+  padding: 10px;
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  max-width: 1000px;
+  height: inherit;
+  margin: 0 auto;
+  padding-left: 30px;
+  display: flex;
+  flex: 1;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-wrap: wrap;
+  color: #383737;
+}
+.postPage--bodyPpal .post {
+  border-top: 1px solid grey;
+}
+.postPage--bodyPpal .texto {
+  margin-bottom: 20px;
+}
+.postPage--bodyPpal .texto .readMore {
+  color: #383737;
+  font-style: none;
+  font-size: 12px;
+  text-decoration: none;
+}
+.postPage--bodyPpal .texto .readMore .arrow {
+  border: solid #383737;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.postPage--bodyPpal h1 {
+  font-size: 1.2em;
+}
 @media only screen and (max-width: 587px) {
   .burger-button {
     display: block;
@@ -180,3 +218,4 @@
     display: none;
   }
 }
+/*# sourceMappingURL=estilosLess.css.map */
