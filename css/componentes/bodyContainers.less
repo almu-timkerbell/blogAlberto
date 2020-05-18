@@ -1,14 +1,28 @@
-.body_container{
+.body_container {
 	padding: 10px;
 	padding-top: 50px;
 	font-family: 'Raleway', sans-serif;
 	max-width: 1000px;
     .layout();
-    .post1 {
+    .post {
         border-top: 1px solid grey;
     }
-    .texto{
+    .texto {
         margin-bottom: 20px;
+        .readMore {
+            color: @color-oscuro;
+            font-style: none;
+            font-size: 12px;
+            text-decoration: none;
+            .arrow {
+                border: solid @color-oscuro;
+                border-width: 0 2px 2px 0;
+                display: inline-block;
+                padding: 3px;
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+            }
+        }
     }
 }
 

@@ -1,0 +1,39 @@
+@media only screen and (max-width: 587px) {
+  .burger-button {
+    display: block;
+  }
+  .header {
+    display: block;
+    height: auto;
+  }
+  .logo {
+    margin: auto;
+  }
+  .nav_container {
+    display: block;
+    position: fixed;
+    background-color: #404040;
+    z-index: 3;
+    top: 0;
+    left: -200vw;
+    bottom: 0;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .nav_container.is-active {
+    left: 0;
+  }
+  .navButton {
+    display: none;
+  }
+  .navButton--margin--top {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 426px) {
+  .icon {
+    display: none;
+  }
+}
